@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "esp32": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1725870727,
+        "narHash": "sha256-cx3Lnw2g7evkzlIXq52ihHJFobxKEANMqowC5uibhFg=",
+        "owner": "knarkzel",
+        "repo": "esp32",
+        "rev": "be09a0a183482d9c5bb6cc9e5d9c01d43937cc43",
+        "type": "github"
+      },
+      "original": {
+        "owner": "knarkzel",
+        "repo": "esp32",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1740560979,
+        "narHash": "sha256-Vr3Qi346M+8CjedtbyUevIGDZW8LcA1fTG0ugPY/Hic=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "5135c59491985879812717f4c9fea69604e7f26f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "esp32": "esp32",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
